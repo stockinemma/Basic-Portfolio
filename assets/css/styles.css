@@ -1,0 +1,147 @@
+body{
+	background: #DCC6C6;
+	font-family: arial, sans-serif;
+	line-height: 20px;
+}
+
+header{
+	background: #BCA7A7;
+}
+
+main{
+	padding: 60px 0;
+	background: #E1E0E7;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	color: #000;
+	padding: 20px 0;
+	font-size: 14px;
+
+}
+
+.card{
+	background: #fff;
+	padding: 16px;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+nav{
+	float: right;
+	width: 30%;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	color: #fff;
+
+}
+
+.brand{
+	float: left;
+	width: 32%;
+	padding: 20px;
+	padding-left: 0;
+}
+
+.brand a{
+	display: block;
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.wrapper{
+	width: 530px;
+	margin: 0 auto;
+
+}
+
+.wrapper:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+.content{
+	width: 60%;
+	float: left;
+}
+
+.content h1{
+	font-size: 32;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 25px;
+}
+
+.sidebar{
+	width: 25%;
+	float: right;
+
+}
+
+.sidebar h3{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.sidebar ul li a{
+	display: block;
+	width: 50px;
+	height: 50 px;
+	text-indent: -999999em;
+}
+
+.sidebar ul li{
+	display: inline-block;
+}
+
+a.twitter{
+	background-color: #1da1f2;
+}
+
+a.twitter:hover{
+	background-color: #657786;
+}
+
+a.linkedin{
+	background-color: #0077b5;
+}
+
+a.linkedin:hover{
+	background-color: #caccce;
+}
+
+a.stackoverflow{
+	background-color: #f48024;
+}
+
+a.stackoverflow:hover{
+	background-color: #222426;
+}
+
+img.about-me-pic{
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	border: 2px solid #AEB8C3;
+	padding: 5px;
+}
+
